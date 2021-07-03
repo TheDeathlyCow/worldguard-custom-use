@@ -26,6 +26,12 @@ public class PlayerListener implements Listener {
 
     private WorldguardCustomInteract plugin;
 
+    private static final UUID silentWareUUID;
+
+    static {
+        silentWareUUID = UUID.fromString("c9471857-6feb-44a1-96d1-46f149686ea1");
+    }
+
     /**
      * Construct the object;
      *
@@ -59,7 +65,7 @@ public class PlayerListener implements Listener {
                     player.sendMessage(new String[]{ChatColor.RED + "" + ChatColor.BOLD + "Hey!"
                             + ChatColor.RESET + "" + ChatColor.GRAY + " You cannot do that here!"});
 
-                    if (player.getUniqueId().compareTo(UUID.fromString("c9471857-6feb-44a1-96d1-46f149686ea1")) == 0) {
+                    if (player.getUniqueId().compareTo(silentWareUUID) == 0) {
                         player.sendMessage(ChatColor.GRAY + "" + ChatColor.ITALIC + "Hey silent, I made this specifically for you.");
                     }
                     return;
