@@ -9,7 +9,7 @@
     <version>2.0</version>
     <packaging>jar</packaging>
 
-    <name>Worldguard Custom Use</name>
+    <name>WorldGuard Custom Use</name>
 
     <description>Allows only certains blocks to be affected by the use flag.</description>
     <properties>
