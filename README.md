@@ -1,8 +1,18 @@
 # Worldguard Custom Use
 
-Adds a WorldGuard set flag called `deny-interact-with`. This flag takes a set of block IDs any denies any non-member the ability to interact (or right click) with blocks of that type within the region. Note: redstone will still work as normal, this will only stop non-member players from interacting with blocks. 
+This plugin is an extension of [WorldGuard](https://dev.bukkit.org/projects/worldguard) that allows for greater customisation of what blocks players can and cannot interact with in protected regions.
 
-Example: deny use of trapdoors within a region named `spawn-region`. Use the command:
+This plugin adds the following flags to WorldGuard:
+
+* `deny-interact-with`: List of block ID's. Sets which blocks non-members are NOT allowed to use.
+* `deny-interact-with-buttons`: Boolean, default false. If true, denies non-members from being able to use with buttons.
+* `deny-interact-with-doors`: Boolean, default false. If true, denies non-members from being able to use with doors.
+* `deny-interact-with-fence-gates`: Boolean, default false. If true, denies non-members from being able to use with fence gates.
+* `deny-interact-with-trapdoors`: Boolean, default false. If true, denies non-members from being able to use with trapdoors.
+
+Example: To deny interaction with chests, barrels, and trapped chests within a region named `spawn-region`. Use the command:
 ```
-/region flag spawn-region deny-interact-with oak_trapdoor,spruce_trapdoor,birch_trapdoor,jungle_trapdoor,acacia_trapdoor,dark_oak_trapdoor,crimson_trapdoor,warped_trapdoor,iron_trapdoor
+/region flag spawn-region deny-interact-with chest,barrel,trapped_chest
 ```
+
+
