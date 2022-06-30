@@ -3,14 +3,14 @@ package com.github.thedeathlycow.worldguardcustomuse;
 import org.bukkit.Material;
 import org.bukkit.Tag;
 
-public class DenyInteractWithFenceGates extends DenyInteractDefinedTypeFlag {
+public class DenyInteractWithButtons extends DenyInteractDefinedTypeFlag {
     @Override
     protected boolean isProhibitedType(Material material) {
-        return Tag.FENCE_GATES.isTagged(material);
+        return Tag.BUTTONS.isTagged(material);
     }
 
     @Override
     public String getName() {
-        return "deny-interact-with-fence-gates";
+        return "deny-interact-with-buttons";
     }
 }

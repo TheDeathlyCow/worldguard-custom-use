@@ -11,7 +11,7 @@ import org.bukkit.Material;
 import java.util.logging.Level;
 import java.util.logging.Logger;
 
-public abstract class DenyInteractBooleanFlag extends DenyInteractFlag {
+public abstract class DenyInteractDefinedTypeFlag extends DenyInteractFlag {
 
     protected BooleanFlag flag;
 

@@ -3,7 +3,7 @@ package com.github.thedeathlycow.worldguardcustomuse;
 import org.bukkit.Material;
 import org.bukkit.Tag;
 
-public class DenyInteractWithTrapdoors extends DenyInteractBooleanFlag {
+public class DenyInteractWithTrapdoors extends DenyInteractDefinedTypeFlag {
 
     @Override
     public String getName() {
