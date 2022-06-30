@@ -16,7 +16,8 @@ public final class WorldguardCustomInteract extends JavaPlugin {
                 new DenyInteractWithAny(),
                 new DenyInteractWithDoors(),
                 new DenyInteractWithTrapdoors(),
-                new DenyInteractWithFenceGates()
+                new DenyInteractWithFenceGates(),
+                new DenyInteractWithButtons()
         );
     }
 
