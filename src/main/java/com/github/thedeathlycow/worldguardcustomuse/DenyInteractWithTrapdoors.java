@@ -7,7 +7,7 @@ public class DenyInteractWithTrapdoors extends DenyInteractBooleanFlag {
 
     @Override
     public String getName() {
-        return "deny-interact-with-doors";
+        return "deny-interact-with-trapdoors";
     }
 
     @Override
