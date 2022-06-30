@@ -1,4 +1,4 @@
-name: Worldguard-Custom-Use
+name: Worldguard-Custom-Interact
 version: ${project.version}
 main: com.github.thedeathlycow.worldguardcustomuse.WorldguardCustomInteract
 api-version: 1.19
