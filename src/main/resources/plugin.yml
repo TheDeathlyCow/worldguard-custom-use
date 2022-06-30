@@ -1,7 +1,7 @@
 name: Worldguard-Custom-Use
 version: ${project.version}
 main: com.github.thedeathlycow.worldguardcustomuse.WorldguardCustomInteract
-api-version: 1.16
+api-version: 1.19
 depend: [WorldGuard]
 authors: [TheDeathlyCow]
 description: Allows only certains blocks to be affected by the use flag.
